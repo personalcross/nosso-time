@@ -22,11 +22,11 @@
     justify-content: center;
     color: #777;
     font-size: 0.9rem;
-    border-left: 6px solid var(--highlight-dark);
+    border-left: 6px solid var(--background-dark);
 }
 
 .team-info h3 {
-    color: var(--highlight-dark);
+    color: var(--background-dark);
     font-size: 1.4rem;
     margin-bottom: 5px;
 }
