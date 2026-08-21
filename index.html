@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://personalcross.github.io/assets/components/custom-header.css">
     <link rel="stylesheet" href="https://personalcross.github.io/assets/components/custom-nav.css">
     <link rel="stylesheet" href="https://personalcross.github.io/assets/components/hamburguer.css">
+    <link rel="stylesheet" href="https://personalcross.github.io/assets/components/settings.css">
     <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -31,52 +32,70 @@
         </nav>
     </header>
 
-    <section>
-        <h2 class="section-title">CEO</h2>
-
-        <div class="team-grid">
-
-            <div class="team-card">
-                <div class="profile-photo">
-                    Espaço reservado para foto de perfil
-                </div>
-
-                <div class="team-info">
-                    <h3>Samuel Encarnação</h3>
-                    <span>Professor Universitário | PhD pela Universidad Autónoma de Madrid</span>
-
-                    <p>
-                        Professor universitário, doutorado pela Universidad Autónoma de Madrid,
-                        mantém hoje parcerias de investigação internacionais entre Brasil e Espanha.
-                    </p>
-
-                    <p>
-                        A sua investigação está fortemente orientada para o envelhecimento e para
-                        populações especiais, com publicações em revistas científicas de referência,
-                        incluindo Sport Sciences for Health, Systematic Reviews e Scientific Reports.
-                    </p>
-
-                    <p>
-                        A sua atuação está fortemente ligada à promoção da saúde, bem-estar e desempenho
-                        físico em populações idosas e especiais, com foco em intervenções baseadas em
-                        evidência científica.
-                    </p>
-                </div>
+    <main>
+        <!-- Settings Sidebar -->
+        <aside class="settings-sidebar">
+            <button class="close-settings">X</button>
+            <div class="settings-options">
+                <button id="btn-login" class="guest-only">Entrar</button>
+                <button id="btn-signup" class="guest-only">Registrar</button>
+                <button id="btn-manage" class="admin-only">A Treinar</button>
+                <button id="btn-create" class="admin-only">Clientes</button>
+                <button id="btn-create" class="admin-only">Exercícios</button>
+                <button id="btn-manage" class="admin-only">Treinos</button>
+                <button id="btn-logout" class="logged-only">Sair</button>
             </div>
+        </aside>
 
+        <section>
+            <h2 class="section-title">CEO</h2>
+
+            <div class="team-grid">
+
+                <div class="team-card">
+                    <div class="profile-photo">
+                        Espaço reservado para foto de perfil
+                    </div>
+
+                    <div class="team-info">
+                        <h3>Samuel Encarnação</h3>
+                        <span>Professor Universitário | PhD pela Universidad Autónoma de Madrid</span>
+
+                        <p>
+                            Professor universitário, doutorado pela Universidad Autónoma de Madrid,
+                            mantém hoje parcerias de investigação internacionais entre Brasil e Espanha.
+                        </p>
+
+                        <p>
+                            A sua investigação está fortemente orientada para o envelhecimento e para
+                            populações especiais, com publicações em revistas científicas de referência,
+                            incluindo Sport Sciences for Health, Systematic Reviews e Scientific Reports.
+                        </p>
+
+                        <p>
+                            A sua atuação está fortemente ligada à promoção da saúde, bem-estar e desempenho
+                            físico em populações idosas e especiais, com foco em intervenções baseadas em
+                            evidência científica.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="highlight">
+            <p>
+                O nosso time reflete a essência do Estúdio Personal Cross: ciência aplicada,
+                pensamento crítico e compromisso com a excelência.
+            </p>
         </div>
-    </section>
-
-    <div class="highlight">
-        <p>
-            O nosso time reflete a essência do Estúdio Personal Cross: ciência aplicada,
-            pensamento crítico e compromisso com a excelência.
-        </p>
-    </div>
-
+    </main>
     <footer>
         © 2026 Estúdio Personal Cross · Todos os direitos reservados
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="sidebarui.js"></script>
 
 </body>
 
